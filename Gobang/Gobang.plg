@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Gobang - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\CHENXI~1\LOCALS~1\Temp\RSP1408.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\chenxiaofeng\桌面\五子棋\Frame\Gobang\Bot.cpp"
+"C:\Documents and Settings\chenxiaofeng\桌面\五子棋\Frame\Gobang\Draw.cpp"
+"C:\Documents and Settings\chenxiaofeng\桌面\五子棋\Frame\Gobang\FiveMain.cpp"
+"C:\Documents and Settings\chenxiaofeng\桌面\五子棋\Frame\Gobang\Main.cpp"
+"C:\Documents and Settings\chenxiaofeng\桌面\五子棋\Frame\Gobang\MainDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\CHENXI~1\LOCALS~1\Temp\RSP1408.tmp" 
+Creating temporary file "C:\DOCUME~1\CHENXI~1\LOCALS~1\Temp\RSP1409.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Gobang.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\chenxiaofeng\桌面\五子棋\Frame\Gobang\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\CHENXI~1\LOCALS~1\Temp\RSP1409.tmp" 
+Creating temporary file "C:\DOCUME~1\CHENXI~1\LOCALS~1\Temp\RSP140A.tmp" with contents
+[
+comctl32.lib winmm.lib wininet.lib MSWSOCK.LIB kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Gobang.pdb" /debug /machine:I386 /out:"Debug/Gobang.exe" /pdbtype:sept 
+".\Debug\Bot.obj"
+".\Debug\Draw.obj"
+".\Debug\FiveMain.obj"
+".\Debug\Main.obj"
+".\Debug\MainDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\resource.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\CHENXI~1\LOCALS~1\Temp\RSP140A.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Bot.cpp
+Draw.cpp
+FiveMain.cpp
+Main.cpp
+MainDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Gobang.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\Bot.sbr" ".\Debug\Draw.sbr" ".\Debug\FiveMain.sbr" ".\Debug\Main.sbr" ".\Debug\MainDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Gobang.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
